@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+
+body {
+  /*сіруватий фон*/
+  background-color: #f2f2f2;
+  /*використаємо імпортований шрифт*/
+  font-family: "Lato";
+  /*темнуватий колір тектсу*/
+  color: #555;
+  /*400 стандарт 700 жирний*/
+  font-weight: 300;
+  /*розмір шрифта базис*/
+  font-size: 16px;
+  /*щоб шрифт злаженим був на мобільних*/
+  -webkit-font-smoothing: antialiased;
+  /*нормально скролити навіть тачом*/
+  -webkit-overflow-scrolling: touch;
+}
+
+/*задамо базовий стиль всім заголовкам та абзацам*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 350;
+  color: #300;
+}
+
+p {
+  line-height: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+/*опишемо стиль відцентровки текту та гіперлінків*/
+.centr {
+  text-align: center;
+}
+
+a {
+  color: #f85c37;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  /*не впливає на позиціонування*/
+  outline: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 1.5rem 0px;
+
+}
+.navbar-inverse {
+  background-color: black;
+  border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #ff7878;
+} 
+
+.navbar-inverse .navbar-brand {
+  font-weight: bolder;
+  color: #999;
+}
+
+#headerwrap {
+  position: relative;
+  background: url("http://static2.cdn.ubi.com/ncsa/forhonor/website/og/ForHonor_og_1200x630.jpg") no-repeat center top;
+
+  padding-top: 60px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  width: 100%;
+  min-height: 500px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+#headerwrap h1 {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 4em;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+#headerwrap h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.w {
+   position: relative;
+   padding-top: 2rem;
+}
+
+.w h4 {
+  font-size: 3rem;
+}
+
+#dg {
+  background-color: #e0e0e0;
+  padding: 70px 0; 
+}
+
+#dg h4 {
+  background-color: #e0e0e0;
+  font-size: 3rem;
+}
+
+.tilt {
+  transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  transform: rotate(-15deg);
+}
+
+.wb {
+  margin-bottom: 0px; 
+  padding-top: 2rem;
+}
+.wb h4 {
+  font-size: 3rem;
+}
+
+#image {
+  margin: 0px 0px 0px 0px;
+}
+
+
+#lg {
+  padding: 70px 0px;
+  background: #ebebeb;
+}
+
+#lg h4{
+  font-size: 3rem;
+}
+
+#r {
+  background-color: black;
+  padding: 70px 0;
+}
+
+#r h4{
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+#r p {
+  color: #fff;
+}
+
+#f {
+  background: orange;
+  padding: 3rem;
+
+}
+
+#f i {
+  font-size: 3rem;
+  color: #bdbdbd;
+}
+
+#f i:hover {
+  color: #C1FF18;
+}
+.frg{
+float: left;
+width: 40px;
+height: 40px;
+
+}
+.main{
+box-sizing: border-box;
+width:33,3%;
+height: 10%%;
+float: left;
+}
+@-webkit-keyframes go-left-right {
+    from {
+      left: 0px;
+    }
+    to {
+      left: calc(100% - 50px);
+    }
+  }
+  .taran {
+    /* применить анимацию go-left-right */
+    /* продолжительность 3s */
+    /* количество раз: бесконечное (infinite) */
+    /* менять направление анимации каждый раз (alternate) */
+    animation: go-left-right 3s infinite alternate;
+    -webkit-animation: go-left-right 3s infinite alternate;
+
+    position: relative;
+    border: 2px solid green;
+    width: 50px;
+    height: 20px;
+    background: lime;
+  }
+  .taran {
+    width: 238px;
+    height: 304px;
+    background-image: url("https://vignette.wikia.nocookie.net/k-w/images/6/6a/Ram.png/revision/latest?cb=20140226132926&path-prefix=ru");
+    background-color: white ;
+    border : 0px ;
+    float: left;
+  }
+  .vorota{
+    width: 400px;
+    height: 300px;
+    background-image: url("https://image.jimcdn.com/app/cms/image/transf/dimension=396x1024:format=jpg/path/sb9a0018b1ff26995/image/i6b1ac4dcb7649033/version/1455447750/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D1%81%D0%BF%D0%B0%D1%88%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0-%D1%81-%D0%BA%D0%B0%D0%BB%D0%B8%D1%82%D0%BA%D0%BE%D0%B9.jpg");
+    float: left;
+  }
+
+
+@-webkit-keyframes tryaska-vorot {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(30deg);
+    }
+  }
+  .vorot {
+    /* применить анимацию go-left-right */
+    /* продолжительность 3s */
+    /* количество раз: бесконечное (infinite) */
+    /* менять направление анимации каждый раз (alternate) */
+    animation:tryaska-vorot 3s infinite alternate;
+    -webkit-animation: tryaska-vorot 3s infinite alternate;
+
+    position: relative;
+    border: 2px solid green;
+    width: 50px;
+    height: 20px;
+    background: lime;
+  }
